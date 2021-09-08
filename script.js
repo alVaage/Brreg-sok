@@ -13,8 +13,12 @@ function søk(){
     infoArr = [];
     
     for(let i = 0; i < 6; i++){
-        var x = String("navn" + (i + 1))
-        document.getElementById(x).innerHTML = i + 1;
+        var a = String("navn" + (i + 1))
+        var b = String("type" + (i + 1))
+        var c = String("web" + (i + 1))
+
+
+        document.getElementById(a).innerHTML = "";
     }
 
 
