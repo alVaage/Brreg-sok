@@ -122,7 +122,12 @@ nav a{
     border: 2px solid var(--Sand);
     border-radius: 16px;
     height: 20vh;
-
+    word-wrap:inherit;
+}
+@media (max-width:960px) {
+    #infoDiv{
+        
+    }
 }
 
 .parent {
