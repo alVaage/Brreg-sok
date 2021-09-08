@@ -57,4 +57,25 @@ function søk(){
             }
         });
     });
+
+     
 }
+
+var Searchinput = document.getElementById("SearchNavn");
+var Searchpost = document.getElementById("SearchPost");
+Searchinput.addEventListener("keyup", function(event) {
+        
+    if (event.keyCode === 13) { // Enter key
+      event.preventDefault();
+      // Klikk knappen 
+      document.getElementById("SearchBtn").click();
+    }
+});
+Searchpost.addEventListener("keyup", function(event) {
+        
+    if (event.keyCode === 13) { // Enter key
+      event.preventDefault();
+      // Klikk knappen 
+      document.getElementById("SearchBtn").click();
+    }
+});
