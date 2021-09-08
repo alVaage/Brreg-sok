@@ -143,7 +143,7 @@ nav a{
     height: 15vw;
     margin-left: 0.6vw;
     margin-right: 0.6vw;
-
+    margin-top: 2vw;
 
     position: sticky;
 
@@ -151,47 +151,14 @@ nav a{
 }
 #boxStack{
     padding:0;
-    margin: 0vw;
+    /*margin: 0vw;*/
+    margin-top: 2vw;
 }
 
-#bedrift1{
+#bedrift{
     position: relative;
     transition: top ease 1s;
 }
-#bedrift1:hover {
-    top: -10px;
-}
-
-#bedrift2{
-    position: relative;
-    transition: top ease 1s;
-}
-#bedrift2:hover {
-    top: -10px;
-
-}#bedrift3{
-    position: relative;
-    transition: top ease 1s;
-}
-#bedrift3:hover {
-    top: -10px;
-
-}#bedrift4{
-    position: relative;
-    transition: top ease 1s;
-}
-#bedrift4:hover {
-    top: -10px;
-}#bedrift5{
-    position: relative;
-    transition: top ease 1s;
-}
-#bedrift5:hover {
-    top: -10px;
-}#bedrift6{
-    position: relative;
-    transition: top ease 1s;
-}
-#bedrift6:hover {
+#bedrift:hover {
     top: -10px;
 }

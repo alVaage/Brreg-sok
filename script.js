@@ -46,9 +46,9 @@ function søk(){
                 
                 
 
-                var navni = String("navn" + (i + 1))
-                var typei = String("type" + (i + 1))
-                var webi = String("web" + (i + 1))
+                var navni = String("navn" + (i + 1));
+                var typei = String("type" + (i + 1));
+                var webi = String("web" + (i + 1));
                 document.getElementById(navni).innerHTML = navnArr[i]
                 document.getElementById(typei).innerHTML = asArr[i]
                 document.getElementById(webi).innerHTML = webArr[i]
