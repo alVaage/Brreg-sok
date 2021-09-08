@@ -125,9 +125,10 @@ nav a{
     word-wrap:inherit;
 }
 @media (max-width:960px) {
-    #infoDiv{
-        
+    #infoDiv p {
+        font-size: 1.3vw;
     }
+
 }
 
 .parent {
