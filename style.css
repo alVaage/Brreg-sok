@@ -9,13 +9,17 @@
 
 #container{
     margin: 0;
-    padding: 0;
-    height: 100%;
+    padding:0;
+    height: 100vh;
     color: var(--Red);
     text-align: center;
-    background-color: var(--Lgray);
+    background-color: var(--Sand);
     
 
+}
+
+*:focus {
+    outline: 0 !important;
 }
 
 input{
@@ -33,22 +37,161 @@ thead{
 nav a{
     color: var(--Red);
 }
-#bg-image{
-  
-    /* Full height */
+
+#topImage{
+    background-image: url(./Images/reddisplay.jpg);
     width: 100%;
-    max-height: 66vh;
-  
-    /* Center and scale the image nicely */
+    padding: 3vw;
+    height: 55vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-#topImage h1{
+#navbar{
     position:absolute; 
-    width: 70%;
-    left:15%;
-    top: 22%;
+    font-size: 2vh;
+    font-weight: bold;
+    width: 50%;
+    border-radius: 8px;
+    left:25%;
+    top: 5%;
+    background-color: var(--Sand);
+    border: 1px solid var(--Red);
+
+
+}
+#navSearchBtn{
+    color: var(--Red);
+    border: 2px solid var(--Red);
+    position: absolute;
+    left: 100%;
+}
+#navSearchBtn:hover{
+    background-color: var(--Red);
     color: var(--Sand);
+}
+
+#navSearch{
+    color: var(--Red);
+    border: 3px solid var(--Red);
+    position: absolute;
+    left: 69%;
+    width: 30%;
+}
+
+#hjem:hover{
+    color: var(--Pink);
+}
+
+#topImage h2{
+    
+    color: var(--Sand);
+}
+
+#SearchNavn, #SearchPost{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    width: 30%;
+    display: inline;
+}
+#SearchBtn{
+    color: var(--Sand);
+    border: 1px solid var(--Sand);
+}
+#SearchBtn:hover{
+    background-color: var(--Sand);
+    color: var(--Red);
+}
+
+#searchDiv{
+    padding-top: 3vh;
+    margin-top: 15vh;
+    background-color: rgb(1,1,1,0.5);
+    border: 2px solid var(--Red);
+    border-radius: 16px;
+    height: 20vh;
+    
+}
+
+#infoDiv{
+    color: var(--Sand);
+    padding-top: 3vh;
+    margin-top: 15vh;
+    background-color: rgb(232,90,79,0.7);
+    border: 2px solid var(--Sand);
+    border-radius: 16px;
+    height: 20vh;
+
+}
+
+.parent {
+    margin-top: 3vh;
+	display: inline-flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+}
+
+.child {
+	background-color: var(--Red);
+	color: var(--Lgray);
+    background-color: rgb(232,90,79,0.9);
+    border: 2px solid var(--Sand);
+    border-radius: 8px;
+    width: 14vw;
+    height: 15vw;
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+
+
+    position: sticky;
+
+    
+}
+#boxStack{
+    padding:0;
+    margin: 0vw;
+}
+
+#bedrift1{
+    position: relative;
+    transition: top ease 1s;
+}
+#bedrift1:hover {
+    top: -10px;
+}
+
+#bedrift2{
+    position: relative;
+    transition: top ease 1s;
+}
+#bedrift2:hover {
+    top: -10px;
+
+}#bedrift3{
+    position: relative;
+    transition: top ease 1s;
+}
+#bedrift3:hover {
+    top: -10px;
+
+}#bedrift4{
+    position: relative;
+    transition: top ease 1s;
+}
+#bedrift4:hover {
+    top: -10px;
+}#bedrift5{
+    position: relative;
+    transition: top ease 1s;
+}
+#bedrift5:hover {
+    top: -10px;
+}#bedrift6{
+    position: relative;
+    transition: top ease 1s;
+}
+#bedrift6:hover {
+    top: -10px;
 }
