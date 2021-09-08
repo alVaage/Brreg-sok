@@ -26,8 +26,10 @@ function søk(){
                 
                 
                 navnArr.push(json[i].navn);
-                asArr.push(json[i].organisasjonsform.beskrivelse);
 
+                if(json[i].organisasjonsform.beskrivelse = "Aksjeselskap"){
+                    asArr.push("AS")
+                }
 
                 if(json[i].hjemmeside != undefined){
                 webArr.push(json[i].hjemmeside);
