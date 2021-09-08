@@ -52,9 +52,9 @@ function søk(){
                 
                 
 
-                var navni = String("navn" + (i + 1))
-                var typei = String("type" + (i + 1))
-                var webi = String("web" + (i + 1))
+                var navni = String("navn" + (i + 1));
+                var typei = String("type" + (i + 1));
+                var webi = String("web" + (i + 1));
                 document.getElementById(navni).innerHTML = navnArr[i]
                 document.getElementById(typei).innerHTML = asArr[i]
                 document.getElementById(webi).innerHTML = webArr[i]
@@ -63,4 +63,25 @@ function søk(){
             }
         });
     });
+
+     
 }
+
+var Searchinput = document.getElementById("SearchNavn");
+var Searchpost = document.getElementById("SearchPost");
+Searchinput.addEventListener("keyup", function(event) {
+        
+    if (event.keyCode === 13) { // Enter key
+      event.preventDefault();
+      // Klikk knappen 
+      document.getElementById("SearchBtn").click();
+    }
+});
+Searchpost.addEventListener("keyup", function(event) {
+        
+    if (event.keyCode === 13) { // Enter key
+      event.preventDefault();
+      // Klikk knappen 
+      document.getElementById("SearchBtn").click();
+    }
+});

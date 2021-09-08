@@ -122,15 +122,18 @@ nav a{
     border: 2px solid var(--Sand);
     border-radius: 16px;
     height: 20vh;
-
+    
 }
+
 
 .parent {
     margin-top: 3vh;
     width: 94vw;
     height: auto;
 	display: inline-flex;
-    
+    overflow-x: auto;
+    overflow-y: hidden;
+    font-size: 2vw;
 
 }
 
@@ -142,9 +145,9 @@ nav a{
     border-radius: 8px;
     width: 14vw;
     height: 15vw;
-    margin-left: 0.9vw;
-    margin-right: 0.9vw;
-    padding: 15px; 
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+    margin-top: 2vw;
 
     position: sticky;
 
@@ -158,47 +161,17 @@ nav a{
 
 #boxStack{
     padding:0;
-    margin: 0vw;
+    /*margin: 0vw;*/
+    margin-top: 2vw;
+}
+#boxStack h4{
+    padding: 10px;
 }
 
-#bedrift1{
+#bedrift{
     position: relative;
     transition: top ease 2s;
 }
-#bedrift1:hover {
-    top: -10px;
-}
-
-#bedrift2{
-    position: relative;
-    transition: top ease 2s;
-}
-#bedrift2:hover {
-    top: -10px;
-
-}#bedrift3{
-    position: relative;
-    transition: top ease 2s;
-}
-#bedrift3:hover {
-    top: -10px;
-
-}#bedrift4{
-    position: relative;
-    transition: top ease 2s;
-}
-#bedrift4:hover {
-    top: -10px;
-}#bedrift5{
-    position: relative;
-    transition: top ease 2s;
-}
-#bedrift5:hover {
-    top: -10px;
-}#bedrift6{
-    position: relative;
-    transition: top ease 2s;
-}
-#bedrift6:hover {
+#bedrift:hover {
     top: -10px;
 }
