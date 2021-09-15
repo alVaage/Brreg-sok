@@ -9,7 +9,7 @@
 body {
     overflow: hidden;
     width: 100%;
-    
+    font-size: 1.05vw;
     height: 100%;
 }
 #container{
