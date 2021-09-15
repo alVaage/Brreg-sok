@@ -64,7 +64,7 @@ nav a{
     width: 100%;
     padding: 30px;
     /*height: 55vh;*/
-    margin-top: 10vh;
+    margin-top: 20vh;
     display: inline-flex;
     flex-direction:row;
     position: relative;
@@ -145,7 +145,7 @@ nav a{
 
 .parent {
     margin-top: 3vh;
-    width: 94vw;
+    width: 100%;
     height: auto;
 	display: inline-flex;
     overflow-x: auto;
@@ -154,22 +154,6 @@ nav a{
 
 }
 
-.child {
-	background-color: var(--Red);
-	color: var(--Lgray);
-    background-color: rgb(232,90,79,0.9);
-    border: 2px solid var(--Sand);
-    border-radius: 8px;
-    width: 14vw;
-    height: 15vw;
-    margin-left: 0.6vw;
-    margin-right: 0.6vw;
-    margin-top: 2vw;
-
-    position: sticky;
-
-    
-}
 
 #boxStack h4{
     text-align: left;
@@ -177,9 +161,8 @@ nav a{
 
 
 #boxStack{
-    padding:0;
+    padding:30px;
     /*margin: 0vw;*/
-    margin-top: 2vw;
     display: inline-flex;
     align-items: center;
     align-content: center;
@@ -193,6 +176,17 @@ nav a{
 #bedrift{
     position: relative;
     transition: top ease 2s;
+    background-color: var(--Red);
+	color: var(--Lgray);
+    background-color: rgb(232,90,79,0.9);
+    border: 2px solid var(--Sand);
+    border-radius: 8px;
+    width: 14vw;
+    height: 15vw;
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+    margin-top: 2vw;
+    min-width: 14vw;
 }
 #bedrift:hover {
     top: -10px;
