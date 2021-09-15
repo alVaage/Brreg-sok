@@ -6,15 +6,24 @@
     --Lgray: #eae7dc;
 
   }
-
+body {
+    overflow: hidden;
+    width: 100%;
+    
+    height: 100%;
+}
 #container{
     margin: 0;
     padding:0;
-    height: 100vh;
+    height: 100%;
+    width: 100%;
     color: var(--Red);
     text-align: center;
-    background-color: var(--Sand);
-    
+    /*background-color: var(--Sand);*/
+    background-image: url(./Images/reddisplay.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -39,13 +48,14 @@ nav a{
 }
 
 #topImage{
-    background-image: url(./Images/reddisplay.jpg);
+
     width: 100%;
-    padding: 3vw;
-    height: 55vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 30px;
+    /*height: 55vh;*/
+    margin-top: 10vh;
+    display: inline-flex;
+    flex-direction:row;
+    position: relative;
 }
 
 #navbar{
@@ -105,23 +115,19 @@ nav a{
 }
 
 #searchDiv{
-    padding-top: 3vh;
-    margin-top: 15vh;
+    padding: 30px;
+
     background-color: rgb(1,1,1,0.5);
     border: 2px solid var(--Red);
     border-radius: 16px;
-    height: 20vh;
-    
 }
 
 #infoDiv{
     color: var(--Sand);
-    padding-top: 3vh;
-    margin-top: 15vh;
+    padding: 30px;
     background-color: rgb(232,90,79,0.7);
     border: 2px solid var(--Sand);
     border-radius: 16px;
-    height: 20vh;
     
 }
 
@@ -163,6 +169,11 @@ nav a{
     padding:0;
     /*margin: 0vw;*/
     margin-top: 2vw;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    position: relative;
 }
 #boxStack h4{
     padding: 10px;
