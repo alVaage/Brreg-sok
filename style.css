@@ -1,9 +1,12 @@
+
+
 :root {
     --Red: #e85a4f;
     --Pink: #e98074;
     --Gray: #8e8d8a;
     --Sand: #d8c3a5;
     --Lgray: #eae7dc;
+    font-size: 1.05vw;
 
   }
 
@@ -15,9 +18,25 @@
     text-align: center;
     background-color: var(--Sand);
     
-
+}
+/*
+@media (max-width: 992px) {
+    #container{
+        background-color: red;}
+    html{
+        font-size: 0.8vw;
+    }
 }
 
+@media (min-width: 992px) {
+    #container{background-color: blue;}
+    html{
+        font-size: 1.05vw;
+      }
+
+    
+}
+*/
 *:focus {
     outline: 0 !important;
 }

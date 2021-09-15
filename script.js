@@ -19,6 +19,9 @@ function søk(){
 
 
         document.getElementById(a).innerHTML = "";
+        document.getElementById(b).innerHTML = "";
+        document.getElementById(c).innerHTML = "";
+
     }
 
 
