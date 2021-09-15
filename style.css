@@ -64,30 +64,29 @@ nav a{
     width: 100%;
     padding: 30px;
     /*height: 55vh;*/
-    margin-top: 20vh;
+
     display: inline-flex;
     flex-direction:row;
     position: relative;
 }
 
 #navbar{
-    position:absolute; 
-    font-size: 2vh;
+    
+    position: relative; 
+    display: inline-flex;
+    flex-direction:row;
+    margin-top: 2vw;
     font-weight: bold;
-    width: 50%;
+    width: 100%;
     border-radius: 8px;
-    left:25%;
-    top: 5%;
-    background-color: var(--Sand);
+    background-color: rgb(1,1,1,0.5);
     border: 1px solid var(--Red);
-
+    
 
 }
 #navSearchBtn{
     color: var(--Red);
     border: 2px solid var(--Red);
-    position: absolute;
-    left: 100%;
 }
 #navSearchBtn:hover{
     background-color: var(--Red);
@@ -97,11 +96,11 @@ nav a{
 #navSearch{
     color: var(--Red);
     border: 3px solid var(--Red);
-    position: absolute;
-    left: 69%;
-    width: 30%;
 }
 
+#hjem {
+    color: var(--Sand);
+}
 #hjem:hover{
     color: var(--Pink);
 }
@@ -143,25 +142,12 @@ nav a{
 }
 
 
-.parent {
-    margin-top: 3vh;
-    width: 100%;
-    height: auto;
-	display: inline-flex;
-    overflow-x: auto;
-    overflow-y: hidden;
-    font-size: 2vw;
-
-}
 
 
-#boxStack h4{
-    text-align: left;
-}
 
 
 #boxStack{
-    padding:30px;
+    padding:0px;
     /*margin: 0vw;*/
     display: inline-flex;
     align-items: center;
@@ -169,24 +155,24 @@ nav a{
     text-align: center;
     position: relative;
 }
-#boxStack h4{
-    padding: 10px;
-}
+
 
 #bedrift{
-    position: relative;
+    position: inline-flex;
     transition: top ease 2s;
     background-color: var(--Red);
 	color: var(--Lgray);
     background-color: rgb(232,90,79,0.9);
     border: 2px solid var(--Sand);
     border-radius: 8px;
-    width: 14vw;
+    width: auto;
     height: 15vw;
+    align-items: center;
+    align-content: center;
+    text-align: center;
     margin-left: 0.6vw;
     margin-right: 0.6vw;
-    margin-top: 2vw;
-    min-width: 14vw;
+    min-width: 15vw;
 }
 #bedrift:hover {
     top: -10px;
